@@ -1,4 +1,4 @@
 (ns app)
 
 (defn -main [& args]
-  (println "Hello, world!"))
+  (print "Hello, World!"))

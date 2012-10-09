@@ -5,4 +5,4 @@
 (deftest test-main
   (let [result (with-out-str (-main))]
     (is
-      (= "Hello, World!\n" result))))
+      (= "Hello, World!" result))))

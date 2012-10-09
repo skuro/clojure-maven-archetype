@@ -8,7 +8,7 @@
     <version>${version}</version>
     <packaging>jar</packaging>
 
-    <name>lambda-importer</name>
+    <name>${artifactId}</name>
     <url>http://maven.apache.org</url>
 
     <properties>
