@@ -21,10 +21,15 @@
             <artifactId>clojure</artifactId>
             <version>1.4.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.theoryinpractise</groupId>
-            <artifactId>clojure-maven-plugin</artifactId>
-            <version>1.3.10</version>
-        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.theoryinpractise</groupId>
+                <artifactId>clojure-maven-plugin</artifactId>
+                <version>1.3.10</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
